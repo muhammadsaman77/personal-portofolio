@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import "@fontsource/inter";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import AOSInitializer from "@/components/AOSInitializer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <AOSInitializer />
+        {children}
+      </body>
     </html>
   );
 }
