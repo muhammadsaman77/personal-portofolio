@@ -4,7 +4,7 @@ export default function Skill() {
   return (
     <div className="w-10/12 mx-auto mt-14">
       <h1 className="text-3xl font-bold font-inter mb-3">Skills</h1>
-      <div className="mb-5" data-aos="fade-up-right">
+      <div className="mb-5" data-aos="flip-right">
         <h2 className="font-inter  font-bold text-yellow-primary mb-3">
           Base Programming
         </h2>
@@ -20,7 +20,7 @@ export default function Skill() {
           ))}
         </div>
       </div>
-      <div className="mb-5" data-aos="fade-up-left">
+      <div className="mb-5" data-aos="flip-left">
         <h2 className="font-inter  font-bold text-yellow-primary mb-3">
           Frontend
         </h2>
@@ -37,7 +37,7 @@ export default function Skill() {
         </div>
       </div>
 
-      <div className="mb-5" data-aos="fade-down-right">
+      <div className="mb-5" data-aos="flip-up">
         <h2 className="font-inter  font-bold text-yellow-primary mb-3">
           Backend
         </h2>
@@ -53,7 +53,7 @@ export default function Skill() {
           ))}
         </div>
       </div>
-      <div className="" data-aos="fade-down-left">
+      <div className="" data-aos="flip-down">
         <h2 className="font-inter  font-bold text-yellow-primary mb-3">
           Other Tools
         </h2>

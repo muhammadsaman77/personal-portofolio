@@ -60,7 +60,7 @@ export default function Contact() {
   return (
     <div className="mx-auto w-10/12 mt-20">
       <div className="flex justify-between md:flex-col">
-        <div className="w-5/12 md:w-full" data-aos="fade-right">
+        <div className="w-5/12 md:w-full" data-aos="zoom-in">
           <h1 className="text-3xl font-inter font-bold text-yellow-primary">
             Contact
           </h1>
@@ -107,7 +107,7 @@ export default function Contact() {
 
         <div
           className="md:w-full md:mt-4 w-6/12 bg-[rgb(29,29,29)] rounded-lg p-5"
-          data-aos="fade-left"
+          data-aos="zoom-out"
         >
           <form onSubmit={handleSubmit} method="post">
             <div>

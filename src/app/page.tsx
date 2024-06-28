@@ -8,7 +8,7 @@ import About from "@/components/About";
 
 export default function Home() {
   return (
-    <div className="text-white font-inter bg-[#101010] pt-2">
+    <div className=" text-white font-inter bg-[#101010] pt-2">
       <Header />
       <Hero />
       <About />
