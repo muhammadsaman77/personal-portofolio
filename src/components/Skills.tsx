@@ -9,7 +9,7 @@ export default function Skill() {
           Base Programming
         </h2>
 
-        <div className="grid  grid-cols-5 gap-y-8   ">
+        <div className="grid md:grid-cols-2  grid-cols-5 gap-y-8   ">
           {skillsData.baseProgramming.map((skill) => (
             <SkillItem
               key={skill.name}
@@ -25,7 +25,7 @@ export default function Skill() {
           Frontend
         </h2>
 
-        <div className="grid  grid-cols-5 gap-y-8 place-content-around">
+        <div className="grid md:grid-cols-2  grid-cols-5 gap-y-8 place-content-around">
           {skillsData.frontend.map((skill) => (
             <SkillItem
               key={skill.name}
@@ -42,7 +42,7 @@ export default function Skill() {
           Backend
         </h2>
 
-        <div className="grid  grid-cols-5 gap-y-8 place-content-around">
+        <div className="grid md:grid-cols-2  grid-cols-5 gap-y-8 place-content-around">
           {skillsData.backend.map((skill) => (
             <SkillItem
               key={skill.name}
@@ -58,7 +58,7 @@ export default function Skill() {
           Other Tools
         </h2>
 
-        <div className="grid  grid-cols-5 gap-y-8 place-content-around">
+        <div className="grid md:grid-cols-2   grid-cols-5 gap-y-8 place-content-around">
           {skillsData.otherTools.map((skill) => (
             <SkillItem
               key={skill.name}

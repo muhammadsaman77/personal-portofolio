@@ -4,17 +4,17 @@ export default function About() {
   return (
     <div
       data-aos="fade-up"
-      className="w-10/12 mx-auto mt-20 bg-[#1D1D1D]  border-yellow-primary   p-10 rounded-xl"
+      className="w-10/12 mx-auto  mt-20 bg-[#1D1D1D]  border-yellow-primary   p-10 rounded-xl"
       id="about"
     >
-      <div className="flex gap-20">
+      <div className=" flex gap-20 md:gap-5 md:flex-col-reverse">
         <Image
           src={fotoAbout}
           alt="MuhammadSaman"
           height={350}
           className="rounded-md"
         />
-        <div className="w-8/12">
+        <div className="w-8/12 md:w-full">
           <h1 className="font-inter text-3xl font-bold  text-white">
             About Me
           </h1>
