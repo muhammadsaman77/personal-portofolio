@@ -12,7 +12,7 @@ export default function Projects() {
         <p className="text-base">Explore the project i’ve worked on so far</p>
       </div>
 
-      <div className=" flex flex-wrap justify-start gap-x-20 gap-y-10 mt-5 md:justify-center">
+      <div className=" flex flex-wrap justify-center gap-x-8 gap-y-10 mt-5 md:justify-center">
         {projects.map((project) => (
           <ProjectItem
             image={project.image}
