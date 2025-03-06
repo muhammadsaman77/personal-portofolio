@@ -22,7 +22,7 @@ export default function About() {
           <p className=" font-inter mt-6 text-justify text-sm">
             Hi there! My name is Muhamad Saman, but you can call me Saman. I
             hail from East Kalimantan, Indonesia, and I&apos;m currently a
-            third-year student majoring in Informatics at the Kalimantan
+            fourth-year student majoring in Informatics at the Kalimantan
             Institute of Technology in Balikpapan.
           </p>
           <p className="text-justify mt-4 font-inter text-sm">
@@ -30,7 +30,7 @@ export default function About() {
             development. I&apos;m a quick learner and always eager to stay
             up-to-date with the latest trends. This love for learning has
             enabled me to master various programming languages and frameworks,
-            including Next.js, TypeScript, Golang, and gRPC.
+            including Python, TypeScript, Golang, and Java.
           </p>
           <p className="text-justify mt-4 text-sm">
             Apart from my technical skills, I&apos;m also a team player who

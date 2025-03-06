@@ -43,10 +43,11 @@ export default function ProjectItem({
               <Image width={30} src={link} alt="Link" />
             </a>
           )}
-
-          <a href={githubUrl} target="_blank">
-            <Image width={26} src={github} alt="Github" />
-          </a>
+          {githubUrl && (
+            <a href={githubUrl} target="_blank">
+              <Image width={26} src={github} alt="Github" />
+            </a>
+          )}
         </div>
       </div>
     </div>

@@ -26,6 +26,9 @@ import flutter from "../../public/icons/flutter.svg";
 import python from "../../public/icons/python.svg";
 import laravel from "../../public/icons/laravel (2).svg";
 import inertia from "../../public/icons/inertiaa.svg";
+import bloc from "../../public/icons/bloc.png";
+import midtrans from "../../public/icons/midtrans.jpg";
+import django from "../../public/icons/django.jpg";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 export type SkillType = {
   name: string;
@@ -107,6 +110,11 @@ const frontend = [
     icon: inertia,
     color: "#F7DF1E",
   },
+  {
+    name: "Bloc",
+    icon: bloc,
+    color: "#F7DF1E",
+  },
 ];
 const backend: SkillType[] = [
   {
@@ -150,6 +158,11 @@ const backend: SkillType[] = [
     icon: prisma,
     color: "#F7DF1E",
   },
+  {
+    name: "Django",
+    icon: django,
+    color: "#F7DF1E",
+  },
 ];
 const otherTools = [
   {
@@ -180,6 +193,11 @@ const otherTools = [
   {
     name: "AWS",
     icon: aws,
+    color: "#F7DF1E",
+  },
+  {
+    name: "Midtrans",
+    icon: midtrans,
     color: "#F7DF1E",
   },
 ];

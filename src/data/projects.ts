@@ -17,31 +17,63 @@ import redux from "../../public/icons/redux.svg";
 import mobileLegend from "../../public/images/mobile-legend.png";
 import incare from "../../public/images/incare.png";
 import golang from "../../public/icons/golang.svg";
+import flutter from "../../public/icons/flutter.svg";
+import karyaBerdaya from "../../public/images/karyaberdaya.jpg";
+import bootstrap from "../../public/icons/bootstrap.svg";
+import reserva from "../../public/images/reserva.jpg";
+import midtrans from "../../public/icons/midtrans.jpg";
+import django from "../../public/icons/django.jpg";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 export type ProjectType = {
   name: string;
   description: string;
   image: StaticImport;
-  githubUrl: string;
+  githubUrl: string | null;
   liveUrl: string | null;
   skills: Omit<SkillType, "color">[];
 };
 const projects: ProjectType[] = [
   {
-    name: "Semiotika 2023",
+    name: "E-Commerce Application Karya Berdaya",
     description:
-      "The official landing page website for the National Information Technology and Mathematics Seminar event or usually called SEMIOTIKA which will be held by the Kalimantan Institute of Technology in 2023",
-    githubUrl: "https://github.com/muhammadsaman77/semiotika-2023",
-    liveUrl: "https://semiotika.itk.ac.id/",
-    image: semiotika,
+      "Created a marketplace for merchandise by people with disabilities, promoting economic independence. Developed key features and delivered API endpoints for seamless integration with front-end and mobile apps.",
+    githubUrl: null,
+    liveUrl: null,
+    image: karyaBerdaya,
     skills: [
       {
-        name: "React",
-        icon: react,
+        name: "Django",
+        icon: django,
       },
       {
-        name: "Tailwind",
-        icon: tailwind,
+        name: "Bootstrap",
+        icon: bootstrap,
+      },
+      {
+        name: "MySQL",
+        icon: mysql,
+      },
+    ],
+  },
+  {
+    name: "Hotel Booking Application Reserva",
+    description:
+      "Developed a platform for searching, checking availability, and booking hotel rooms online with a user-friendly interface. Integrated room management, booking schedules, and payment systems for efficiency.",
+    githubUrl: "https://github.com/muhammadsaman77/reserva-mobile",
+    liveUrl: null,
+    image: reserva,
+    skills: [
+      {
+        name: "Flutter",
+        icon: flutter,
+      },
+      {
+        name: "Express.js",
+        icon: express,
+      },
+      {
+        name: "Midtrans",
+        icon: midtrans,
       },
     ],
   },
@@ -154,6 +186,24 @@ const projects: ProjectType[] = [
       {
         name: "MySQL",
         icon: mysql,
+      },
+    ],
+  },
+  {
+    name: "Semiotika 2023",
+    description:
+      "The official landing page website for the National Information Technology and Mathematics Seminar event or usually called SEMIOTIKA which will be held by the Kalimantan Institute of Technology in 2023",
+    githubUrl: "https://github.com/muhammadsaman77/semiotika-2023",
+    liveUrl: "https://semiotika.itk.ac.id/",
+    image: semiotika,
+    skills: [
+      {
+        name: "React",
+        icon: react,
+      },
+      {
+        name: "Tailwind",
+        icon: tailwind,
       },
     ],
   },
